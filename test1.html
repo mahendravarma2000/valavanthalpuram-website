@@ -1,0 +1,129 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootsrap/3.4.1/css/bootsrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="textstyle1.css">
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+
+            });
+
+        });
+    </script>
+ </head>
+
+ <style type="text/css">
+
+    .item{
+        transition: .5s ease-in-out;
+    }
+    .item:hover{
+        filter: brightness(80%);
+    }
+
+
+ </style>
+ <body>
+
+    <nav>
+        <label class="logo">வாழவந்தாள்புரம்</label>
+        <ul>
+           <li> <a  href="index.html">முகப்பு</a></li>
+           <li> <a href="page4.html">கோவில்</a></li>
+           <li> <a class="active" href="page2.html">புகைப்படங்கள்</a></li>
+           <li> <a href="manymore.html">மேலும்பல</a></li>
+        </ul>
+        <label id="icon">
+           <i class="fas fa-bars"></i>
+        </label>
+   </nav>
+        <div class="header">
+        <h1>புகைப்படங்கள்</h1>
+
+
+     <div class="container-fluid">
+
+        <div class="row mt-4">
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images2/ 201.jpeg" class="fancybox" data-fancybox="gallery1">
+                    <img src="images2/ 201.jpeg" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images2/ 202.jpeg" class="fancybox" data-fancybox="gallery1">
+                    <img src="images2/ 202.jpeg" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images2/ 203.jpeg" class="fancybox" data-fancybox="gallery1">
+                    <img src="images2/ 203.jpeg" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images2/ 204.jpeg" class="fancybox" data-fancybox="gallery1">
+                    <img src="images2/ 204.jpeg" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images2/ 205.jpeg" class="fancybox" data-fancybox="gallery1">
+                    <img src="images2/ 205.jpeg" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+                <a href="images2/ 206.jpeg" class="fancybox" data-fancybox="gallery1">
+                    <img src="images2/ 206.jpeg" width="100%" height="100%">
+                </a>
+            </div>
+        
+
+
+
+        </div>
+     </div>
+     <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"><a href="https://www.facebook.com/groups/613329603067638/?ref=share"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="social-items"><a href="https://youtube.com/channel/UChAFqwDskFVv5dmGv3ZdSZg"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="social-items"><a href="https://chat.whatsapp.com/EH2Br8gIcCg0MLZip7dgYQ"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+    
+            </div>
+            <div class="quick-links">
+                <ul>
+                    <li class="quick-items"><a href="index.html">முகப்பு</a></li>
+                    <li class="quick-items"><a href="page4.html">கோவில்</a></li>
+                   
+                    <li class="quick-items"><a href="page2.html">புகைப்படங்கள்</a></li>
+                    <li class="quick-items"><a href="manymore.html">மேலும்பல</a></li>
+    
+                   
+                </ul>
+                
+            </div>
+        </div>
+    
+        <div class="outer-footer">
+            copyright &copy; valavanthalpuram.com All Rights Reserved-website created by MAHENDRAVARMA
+    
+        </div>
+    </footer>
+    
+ </body>
+ </html>
